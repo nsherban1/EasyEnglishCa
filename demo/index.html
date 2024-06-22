@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Easy English</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Collegiate+One&family=Catamaran:wght@100&family=Dosis&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Collegiate+One&family=Catamaran:wght@100&family=Dosis&family=Satisfy&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+<!-- count particles -->
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
+
+<!-- particles.js container -->
+<div id="particles-js">
+      <!-- The BUTTONS-->
+    <div class="modalBtnsAll">
+      <button class="nav__link show-modal">About Us</button>
+      <button class="nav__link show-modala">Courses</button>
+      <button class="nav__link show-modalc">Pricing</button>
+      <button class="nav__link show-modalb">Blog</button>
+      <button class="nav__link show-modald">Inquiries</button>
+      <!-- BUTTON 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <br>
+        <h2>About Us</h2>
+        <br>
+        <p><h3><font size="3">
+        </font></h3></p>
+      </div>
+      <div class="overlay hidden"></div>
+      <!-- BUTTON 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+      <div class="modala hidden">
+        <li class="nav-item dropdown">
+
+          <button class="close-modala">&times;</button>
+          
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="font-family: 'Dosis'"> <h2>Courses</h2>
+            </a>
+            <br>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href = "blogs/teachenglishvietnam.html" class="dropdown-item" style="font-family: 'Dosis'">Beginner Level</a></li>
+                <li><a href = "blogs/teachenglishvietnam.html" class="dropdown-item" style="font-family: 'Dosis'">Intermediate Level</a></li>
+                <li><a href = "blogs/workoutplan.html" class="dropdown-item"  style="font-family: 'Dosis'">IELTS Preparation</a></li>
+                <li><a href = "blogs/accomodation.html" class="dropdown-item"  style="font-family: 'Dosis'">Advanced Conversational Classes</a></li>
+              </ul>
+        </li>
+
+            <br>
+            <ul></ul>
+            <br>
+
+
+              <br>
+
+          </ul>
+
+        
+      </div>
+      <div class="overlaya hidden"></div>
+      <!-- BUTTON 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+      <div class="modalb hidden">
+        <button class="close-modalb">&times;</button>
+        <h2>Blog</h2>
+        <br>
+          <ul><h3>
+          </h3></ul>
+          
+        </p>
+      </div>
+      <div class="overlayb hidden"></div>
+      <!-- BUTTON 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+      <div class="modalc hidden">
+        <button class="close-modalc">&times;</button>
+        <!-- <h1>Pricing</h1> -->
+        <p>
+          <!-- Lessons can be either 30 minutes or 1 hour in length. Payments are
+          either for 1 lesson or a package of 2, 5, 10 or 20 lessons. Note that I charge the same price for all subjects. Here are the prices for different lesson packages: -->
+            <!-- <div class="price">
+             <img src="pricingchart.gif" style="width:90%">
+            </div> -->
+            <div class="container">
+              <h2>Pricing:</h2>
+              <br>
+              <h3>- Standard Price of 23 USD/ 50 minute lesson for all ages and levels</h3>
+              <br>
+              <h3>- Refer a friend to get a discount!</h3>
+
+
+
+
+            </div>
+        </p>
+      </div>
+      <div class="overlayc hidden"></div>
+    
+          <!-- BUTTON 5 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+          <div class="modald hidden">
+            <button class="close-modald">&times;</button>
+            <!-- <h1>Inquiries</h1> -->
+            <p>
+              <div class="container">
+                <h2>Contact Details:</h2>
+                <br>
+                <h3>Canada: +1-368-886-9905</h3>
+                <br>
+                <h3>Vietnam: +84-772-605-916</h3>
+                <br>
+                <h3>Email: jnsherban7@gmail.com</h3>
+
+              </div>
+              <!-- <div class="container">
+                <form action=”mailto:contact@jnsherban7@gmail.com”
+                  method=”POST”
+                  enctype=”text/plain”>
+              
+                  <label for="fname">Full Name</label>
+                  <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+              
+                  <label for="lname">Email Address</label>
+                  <input type="text" id="emailad" name="emailad" placeholder="Your email address..">
+              
+                   <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="thailand">Thailand</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="costarica">Costa Rica</option>
+                    <option value="vietnam">Vietnam</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="cambodia">Cambodia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="other">Other</option>
+
+
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Ask any questions about my courses, curriculums, availability, experience or inquire about a free demo lesson or consultation. " style="height:117px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div> -->
+            </p>
+          </div>
+          <div class="overlayd hidden"></div>
+    </div>
+      <div class="content">
+              <!-- photo -->
+        <div class="sliders">
+          <div class="slide slide--1">
+            <div class="profilephoto">
+              <img src="easyenglishpic1.png" alt="easyenglishpic"/>
+            </div>
+          </div>
+          <div class="slide slide--2">
+            <div class="profilephoto">
+              <img src="mathsbee.png" alt="mathsbee"/>
+            </div>
+          </div>
+          <div class="slide slide--3">
+            <div class="profilephoto">
+              <img src="mathsbee1.png" alt="mathsbee1"/>
+            </div>
+          </div>
+          <div class="slide slide--4">
+            <div class="profilephoto">
+              <img src="onlineclass.gif" alt="onlineclass"/>
+            </div>
+          </div>
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+
+        </div>
+
+            <div class="caption">
+              <h3>The easiest solution to meet your English goals!
+                <br></h3>
+          </div>
+        </div>
+
+        <div class="logo">
+          <img src="logo1.png" alt="logo" style="width:100%"/>
+        </div>
+
+    <!-- scripts -->
+    <script src="../particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/formsubmit.js"></script>
+
+
+    <!-- stats.js -->
+    <script src="js/lib/stats.js"></script>
+    <script>
+      var count_particles, stats, update;
+      stats = new Stats;
+      stats.setMode(0);
+      stats.domElement.style.position = 'absolute';
+      stats.domElement.style.left = '0px';
+      stats.domElement.style.top = '0px';
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector('.js-count-particles');
+      update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>
+  </div>
+</body>
+</html>
