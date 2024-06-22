@@ -315,6 +315,15 @@ ul{
   position:absolute;
   border-radius: 15rem;
 }
+.logo1{
+  width:12%;
+  height:auto;
+  margin-top:100vh;
+  margin-left: 80%;
+  margin-right:auto;
+  position:absolute;
+  border-radius: 15rem;
+}
 .googleclassicon{
   /* width: 10%; */
   height:auto;
@@ -557,7 +566,7 @@ input[type=submit]:hover {
   }
   .price{
     height:fit-content
-    width:fit-content;
+    /* width:fit-content; */
   }
   .img {
     display: block;
@@ -711,6 +720,8 @@ input[type=submit]:hover {
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
+
+
 
 
 /* ---- particles.js container ---- */
