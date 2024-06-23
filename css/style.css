@@ -569,8 +569,8 @@ input[type=submit]:hover {
     margin-left:17%;
   }
   .caption{
-    top:63%;
-    margin-left:5%;
+    top:72%;
+    margin-left:0%;
   }
   .modal{
     left:20%;
@@ -605,7 +605,7 @@ input[type=submit]:hover {
   .logo{
     width:38%;
     height:auto;
-    margin-top:5vh;
+    /* margin-top:5vh; */
     margin-left: -2%;
     margin-right:auto;
     position:absolute;
@@ -619,6 +619,35 @@ input[type=submit]:hover {
     margin-right:auto;
     position:absolute;
     border-radius: 15rem;
+  }
+  .overlay {
+    position: absolute;
+    top: -155px;
+  }
+  .overlaya {
+    position: absolute;
+    top: -155px;
+  }
+  .overlayb {
+    position: absolute;
+    top: -155px;
+  }
+  .overlayc {
+    position: absolute;
+    top: -155px;
+  }
+  .overlayd {
+    position: absolute;
+    top: -155px;
+  }
+  .modalBtnsAll {
+    justify-content: space-evenly;
+    position:absolute;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top:165px;
+    max-width:100%;
+    padding:0px;
   }
 }
 .slider {
@@ -642,9 +671,7 @@ input[type=submit]:hover {
   /* height: 10rem; */
   z-index: 7;
   overflow: hidden;
-.listitems1{
-justify-content: center;
-}
+
 
   /* display: flex; */
   /* align-items: center;
