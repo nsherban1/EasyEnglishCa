@@ -483,9 +483,9 @@ input[type=submit]:hover {
 
 .overlay {
   position: absolute;
-  top: -10px;
-  left: -77%;
-  width: 208%;
+  top: -16px;
+  left: -73%;
+  width: 198%;
   height: 98vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -494,9 +494,9 @@ input[type=submit]:hover {
 }
 .overlaya {
   position: absolute;
-  top: -10px;
-  left: -77%;
-  width: 208%;
+  top: -16px;
+  left: -73%;
+  width: 198%;
   height: 98vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -507,9 +507,9 @@ input[type=submit]:hover {
 }
 .overlayb {
   position: absolute;
-  top: -10px;
-  left: -77%;
-  width: 208%;
+  top: -16px;
+  left: -73%;
+  width: 198%;
   height: 98vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -519,9 +519,9 @@ input[type=submit]:hover {
 }
 .overlayc {
   position: absolute;
-  top: -10px;
-  left: -77%;
-  width: 208%;
+  top: -16px;
+  left: -73%;
+  width: 198%;
   height: 98vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -531,9 +531,9 @@ input[type=submit]:hover {
 }
 .overlayd {
   position: absolute;
-  top: -10px;
-  left: -77%;
-  width: 208%;
+  top: -16px;
+  left: -73%;
+  width: 198%;
   height: 98vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -569,7 +569,7 @@ input[type=submit]:hover {
     margin-left:17%;
   }
   .caption{
-    top:72%;
+    top:67%;
     margin-left:0%;
   }
   .modal{
