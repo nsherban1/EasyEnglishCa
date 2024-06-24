@@ -571,6 +571,7 @@ input[type=submit]:hover {
   .caption{
     top:67%;
     margin-left:0%;
+    padding:35px;
   }
   .modal{
     left:20%;
