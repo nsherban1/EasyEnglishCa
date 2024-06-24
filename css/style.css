@@ -617,23 +617,23 @@ input[type=submit]:hover {
     font-size: 15px;
   }
   .modal{
-    left:20%;
+    left:50%;
     top:100%;
   }
   .modala{
-    left:20%;
+    left:50%;
     top:100%;
   }
   .modalb{
-    left:20%;
+    left:50%;
     top:100%;
   }
   .modalc{
-    left:20%;
+    left:50%;
     top:100%;
   }
   .modald{
-    left:20%;
+    left:50%;
     top:100%;
 
   }
@@ -666,23 +666,23 @@ input[type=submit]:hover {
   }
   .overlay {
     position: absolute;
-    top: -155px;
+    top: -85px;
   }
   .overlaya {
     position: absolute;
-    top: -155px;
+    top: -85px;
   }
   .overlayb {
     position: absolute;
-    top: -155px;
+    top: -85px;
   }
   .overlayc {
     position: absolute;
-    top: -155px;
+    top: -85px;
   }
   .overlayd {
     position: absolute;
-    top: -155px;
+    top: -85px;
   }
   .show-modal{
     font-size:15px;
