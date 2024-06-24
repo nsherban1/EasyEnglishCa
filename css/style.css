@@ -570,7 +570,7 @@ input[type=submit]:hover {
     margin-top:80px;
   }
   .caption{
-    top:73%;
+    top:80%;
     margin-left:0%;
     padding:35px;
   }
@@ -642,6 +642,21 @@ input[type=submit]:hover {
     position: absolute;
     top: -155px;
   }
+  .show-modal{
+    font-size:15px;
+  }
+  .show-modala{
+    font-size:15px;
+  }
+  .show-modalb{
+    font-size:15px;
+  }
+  .show-modalc{
+    font-size:15px;
+  }
+  .show-modald{
+    font-size:15px;
+  }
   .modalBtnsAll {
     justify-content: space-evenly;
     position:absolute;
@@ -649,7 +664,7 @@ input[type=submit]:hover {
     margin-right:auto;
     margin-top:135px;
     max-width:100%;
-    padding:0px;
+    padding:30px;
   }
 }
 .slider {
