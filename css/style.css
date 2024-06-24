@@ -567,12 +567,13 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
   .sliders{
     margin-left:17%;
-    margin-top:80px;
+    margin-top:70px;
   }
   .caption{
     top:80%;
     margin-left:0%;
     padding:35px;
+    font-size: 15px;
   }
   .modal{
     left:20%;
@@ -662,7 +663,7 @@ input[type=submit]:hover {
     position:absolute;
     margin-left:auto; 
     margin-right:auto;
-    margin-top:135px;
+    margin-top:105px;
     max-width:100%;
     padding:30px;
   }
