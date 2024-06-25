@@ -747,17 +747,17 @@ input[type=submit]:hover {
   }
   .caption{
     top:58%;
-    margin-left:0%;
+    margin-left:10%;
     padding:10px;
   }
   .caption2{
     top:66%;
-    margin-left:0%;
+    margin-left:10%;
     padding:10px;
   }
   .caption3{
-    top:84%;
-    margin-left:0%;
+    top:78%;
+    margin-left:10%;
     padding:10px;
   }
 
@@ -811,38 +811,44 @@ input[type=submit]:hover {
   }
   .overlay {
     position: absolute;
-    top: -85px;
+    top: -190px;
   }
   .overlaya {
     position: absolute;
-    top: -85px;
+    top: -190px;
   }
   .overlayb {
     position: absolute;
-    top: -85px;
+    top: -190px;
   }
   .overlayc {
     position: absolute;
-    top: -85px;
+    top: -190px;
   }
   .overlayd {
     position: absolute;
-    top: -85px;
+    top: -190px;
   }
   .show-modal{
     font-size:16px;
+    padding: 1.5rem 3rem;
+
   }
   .show-modala{
     font-size:16px;
+    padding: 1.5rem 3rem;
   }
   .show-modalb{
     font-size:16px;
+    padding: 1.5rem 3rem;
   }
   .show-modalc{
     font-size:16px;
+    padding: 1.5rem 3rem;
   }
   .show-modald{
     font-size:16px;
+    padding: 1.5rem 3rem;
   }
   .modalBtnsAll {
     justify-content: space-evenly;
