@@ -295,14 +295,41 @@ ul{
 
 .caption{
   display:flex;
-  margin-left:50%; 
+  margin-left:47%; 
   top:37%;
   margin-right:auto;
   background-color: rgb(255,255,255,0.1);
-  padding:95px;
+  padding:65px;
+  z-index: 5;
+  border-radius: 25rem;
+  position:absolute;
+  border:solid white 2px;
+
+}
+.caption2{
+  display:flex;
+  margin-left:60%; 
+  top:53%;
+  margin-right:auto;
+  background-color: rgb(255,255,255,0.1);
+  padding:65px;
   z-index: 5;
 
-  border-radius: 15rem;
+  border-radius: 25rem;
+  position:absolute;
+  border:solid white 2px;
+
+} 
+.caption3{
+  display:flex;
+  margin-left:35%; 
+  top:53%;
+  margin-right:auto;
+  background-color: rgb(255,255,255,0.1);
+  padding:65px;
+  z-index: 5;
+
+  border-radius: 25rem;
   position:absolute;
   border:solid white 2px;
 
@@ -591,7 +618,7 @@ input[type=submit]:hover {
   /* max-width:20rem; */
   /* background-color: rgb(255,255,255,0.1); */
   padding:140px;
-  margin-left: 18%;
+  margin-left: 10%;
   top:32%;
   border-radius: 5rem;
   position:absolute;
@@ -608,14 +635,27 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
   .sliders{
     margin-left:10%;
-    margin-top:60px;
+    margin-top:-60px;
   }
   .caption{
-    top:83%;
+    top:58%;
     margin-left:0%;
-    padding:30px;
+    padding:20px;
     font-size: 15px;
   }
+  .caption2{
+    top:68%;
+    margin-left:0%;
+    padding:20px;
+    font-size: 15px;
+  }
+  .caption3{
+    top:84%;
+    margin-left:0%;
+    padding:20px;
+    font-size: 15px;
+  }
+
   .modal{
     left:50%;
     top:100%;
