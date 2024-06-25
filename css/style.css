@@ -748,20 +748,17 @@ input[type=submit]:hover {
   .caption{
     top:58%;
     margin-left:0%;
-    padding:20px;
-    font-size: 10px;
+    padding:10px;
   }
   .caption2{
     top:66%;
     margin-left:0%;
-    padding:20px;
-    font-size: 10px;
+    padding:10px;
   }
   .caption3{
     top:84%;
     margin-left:0%;
-    padding:20px;
-    font-size: 10px;
+    padding:10px;
   }
 
   .modal{
@@ -833,19 +830,19 @@ input[type=submit]:hover {
     top: -85px;
   }
   .show-modal{
-    font-size:15px;
+    font-size:16px;
   }
   .show-modala{
-    font-size:15px;
+    font-size:16px;
   }
   .show-modalb{
-    font-size:15px;
+    font-size:16px;
   }
   .show-modalc{
-    font-size:15px;
+    font-size:16px;
   }
   .show-modald{
-    font-size:15px;
+    font-size:16px;
   }
   .modalBtnsAll {
     justify-content: space-evenly;
@@ -879,14 +876,14 @@ input[type=submit]:hover {
   }
   .dots {
     position: absolute;
-    top: 75%;
+    top: 73%;
     left: 40%;
     transform: translateX(-50%);
     display: flex;
     z-index: 8;
   
   }
-  .h3{
+  h3{
     font-size: 16px;
   }
 }
