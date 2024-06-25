@@ -439,7 +439,7 @@ input[type=submit]:hover {
 
 .modal {
   position: absolute;
-  margin-top: 30%;
+  margin-top: 33%;
   left: 28%;
   transform: translate(-50%, -50%);
   width: 100%;
