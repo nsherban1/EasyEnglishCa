@@ -743,7 +743,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
   .sliders{
     margin-left:35%;
-    margin-top:-260px;
+    margin-top:-250px;
   }
   .caption{
     top:58%;
@@ -758,7 +758,7 @@ input[type=submit]:hover {
     font-size: 10px;
   }
   .caption3{
-    top:88%;
+    top:84%;
     margin-left:0%;
     padding:20px;
     font-size: 10px;
@@ -885,6 +885,9 @@ input[type=submit]:hover {
     display: flex;
     z-index: 8;
   
+  }
+  .h3{
+    font-size: 16px;
   }
 }
 
