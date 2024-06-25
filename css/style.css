@@ -634,8 +634,8 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 500px) {
   .sliders{
-    margin-left:10%;
-    margin-top:-60px;
+    margin-left:30%;
+    margin-top:-300px;
   }
   .caption{
     top:58%;
@@ -744,9 +744,13 @@ input[type=submit]:hover {
     position:absolute;
     margin-left:auto; 
     margin-right:auto;
-    margin-top:95px;
+    margin-top:200px;
     max-width:100%;
     padding:30px;
+  }
+  .profilephoto img{
+    width:80%;
+
   }
 }
 .slider {
