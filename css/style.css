@@ -635,7 +635,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
   .sliders{
     margin-left:35%;
-    margin-top:-280px;
+    margin-top:-260px;
   }
   .caption{
     top:58%;
