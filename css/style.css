@@ -764,7 +764,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
   .sliders{
     margin-left:20%;
-    margin-top:-110px;
+    margin-top:-50px;
   }
   .navbar-brand {
     font-size: 22px;
@@ -799,18 +799,29 @@ input[type=submit]:hover {
   }
   .caption{
     top:58%;
-    margin-left:10%;
+    margin-left:15%;
     padding:10px;
+    border:solid white 2px;
+    border-radius: 0;
+
   }
   .caption2{
     top:66%;
-    margin-left:10%;
+    margin-left:15%;
     padding:10px;
+    border:solid white 2px;
+    border-radius: 0;
+
+
   }
   .caption3{
-    top:78%;
-    margin-left:10%;
+    top:81%;
+    margin-left:15%;
     padding:10px;
+    border:solid white 2px;
+    border-radius: 0;
+
+
   }
 
   .modal{
@@ -855,7 +866,7 @@ input[type=submit]:hover {
   .logo{
     width:50%;
     height:auto;
-    /* margin-top:5vh; */
+    margin-top:-18%;
     margin-left: -2%;
     margin-right:auto;
     position:absolute;
