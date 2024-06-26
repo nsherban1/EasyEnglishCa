@@ -100,7 +100,7 @@ li{
   color: black;
 }
 
-.dropdown {
+/* .dropdown {
   position: relative;
   display: none;
 
@@ -122,7 +122,7 @@ li{
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 h1 {
   font-size: 24px;
   margin-bottom: 2rem;
@@ -800,7 +800,8 @@ input[type=submit]:hover {
   .caption{
     top:58%;
     margin-left:15%;
-    padding:10px;
+    margin-right:28%;
+    padding:8px;
     border:solid white 2px;
     border-radius: 0;
 
@@ -808,16 +809,18 @@ input[type=submit]:hover {
   .caption2{
     top:66%;
     margin-left:15%;
-    padding:10px;
+    margin-right: 28%;
+    padding:8px;
     border:solid white 2px;
     border-radius: 0;
 
 
   }
   .caption3{
-    top:81%;
+    top: 83%;
     margin-left:15%;
-    padding:10px;
+    margin-right:28%;
+    padding:8px;
     border:solid white 2px;
     border-radius: 0;
 
@@ -851,8 +854,6 @@ input[type=submit]:hover {
     left:50%;
     top:50%;
     width:80%;
-
-
   }
   .price{
     height:fit-content
@@ -866,7 +867,7 @@ input[type=submit]:hover {
   .logo{
     width:50%;
     height:auto;
-    margin-top:-18%;
+    /* margin-top:-18%; */
     margin-left: -2%;
     margin-right:auto;
     position:absolute;
