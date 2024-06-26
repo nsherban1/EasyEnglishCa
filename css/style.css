@@ -826,35 +826,6 @@ input[type=submit]:hover {
 
 
   }
-
-  .modal{
-    left:50%;
-    top:50%;
-    width:80%;
-  }
-  .modala{
-    left:50%;
-    top:50%;
-    width:80%;
-
-  }
-  .modalb{
-    left:50%;
-    top:50%;
-    width:80%;
-
-  }
-  .modalc{
-    left:50%;
-    top:50%;
-    width:80%;
-
-  }
-  .modald{
-    left:50%;
-    top:50%;
-    width:80%;
-  }
   .price{
     height:fit-content
     /* width:fit-content; */
@@ -875,23 +846,18 @@ input[type=submit]:hover {
   }
   .overlay {
     position: absolute;
-    top: -190px;
   }
   .overlaya {
     position: absolute;
-    top: -190px;
   }
   .overlayb {
     position: absolute;
-    top: -190px;
   }
   .overlayc {
     position: absolute;
-    top: -190px;
   }
   .overlayd {
     position: absolute;
-    top: -190px;
   }
   .show-modal{
     font-size:12px;
@@ -926,11 +892,11 @@ input[type=submit]:hover {
   .modalBtnsAll {
     justify-content: space-evenly;
     position:absolute;
-    margin-left:40%; 
+    margin-left:41%; 
     margin-right:auto;
     /* margin-top:200px; */
     max-width:100%;
-    padding:30px;
+    padding:5px;
     /* display: none; */
 
   }
