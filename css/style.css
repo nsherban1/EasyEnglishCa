@@ -92,15 +92,36 @@ body {
   z-index: -1;
   color: rgba(165, 12, 12, 0.514);
 }
-/* img {
-   margin-left: 50px; 
-} */
 
 li{
   font-size:20px;
   font-family: "Catamaran", sans-serif;
   font-weight:bold;
   color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+
+  
+} 
+.dropdown1 {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 2px 18px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 h1 {
   font-size: 24px;
@@ -745,6 +766,37 @@ input[type=submit]:hover {
     margin-left:20%;
     margin-top:-110px;
   }
+  .navbar-brand {
+    font-size: 22px;
+    font-family: sans-serif;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .dropdown{
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    left:50%;
+    top:10%;
+    z-index: 8;
+    border:solid white 2px;
+    padding:15px;
+    background-color: rgba(165,12,12,0);
+  }
+  .dropdown-content{
+    background-color: rgba(165,12,12,0);
+  }
+  .span{
+    font-weight:bolder;
+  }
+  .dropdown-item {
+    font-size: 18px;
+    font-family: serif;
+    line-height: 0px;
+  }
   .caption{
     top:58%;
     margin-left:10%;
@@ -801,19 +853,10 @@ input[type=submit]:hover {
     margin-left: auto;
   }
   .logo{
-    width:38%;
+    width:50%;
     height:auto;
     /* margin-top:5vh; */
     margin-left: -2%;
-    margin-right:auto;
-    position:absolute;
-    border-radius: 15rem;
-  }
-  .logo1{
-    width:30%;
-    height:auto;
-    margin-top:100vh;
-    margin-left: 70%;
     margin-right:auto;
     position:absolute;
     border-radius: 15rem;
@@ -840,24 +883,33 @@ input[type=submit]:hover {
   }
   .show-modal{
     font-size:16px;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
+    border:solid rgb(0, 0, 0) 2px;
 
   }
   .show-modala{
     font-size:16px;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
+    border:solid rgb(0, 0, 0) 2px;
+
   }
   .show-modalb{
     font-size:16px;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
+    border:solid rgb(0, 0, 0) 2px;
+
   }
   .show-modalc{
     font-size:16px;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
+    border:solid rgb(0, 0, 0) 2px;
+
   }
   .show-modald{
     font-size:16px;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
+    border:solid rgb(0, 0, 0) 2px;
+
   }
   .modalBtnsAll {
     justify-content: space-evenly;
