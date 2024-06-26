@@ -797,6 +797,39 @@ input[type=submit]:hover {
     font-family: serif;
     line-height: 0px;
   }
+  .container{
+    padding:0;
+  }
+  .modal{
+    margin-top:63%;
+    width:110%;
+    margin-left:-18%;
+    padding:4rem;
+  }
+  .modala{
+    margin-top:63%;
+    width:110%;
+    margin-left:-18%;
+    padding:4rem;
+  }
+  .modalb{
+    margin-top:63%;
+    width:110%;
+    margin-left:-18%;
+    padding:4rem;
+  }
+  .modalc{
+    margin-top:63%;
+    width:110%;
+    margin-left:-18%;
+    padding:4rem;
+  }
+  .modald{
+    margin-top:63%;
+    width:110%;
+    margin-left:-18%;
+    padding:4rem;
+  }
   .caption{
     top:58%;
     margin-left:15%;
