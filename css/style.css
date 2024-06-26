@@ -894,31 +894,31 @@ input[type=submit]:hover {
     top: -190px;
   }
   .show-modal{
-    font-size:16px;
+    font-size:12px;
     padding: 1rem 3rem;
     border:solid rgb(0, 0, 0) 2px;
 
   }
   .show-modala{
-    font-size:16px;
+    font-size:12px;
     padding: 1rem 3rem;
     border:solid rgb(0, 0, 0) 2px;
 
   }
   .show-modalb{
-    font-size:16px;
+    font-size:12px;
     padding: 1rem 3rem;
     border:solid rgb(0, 0, 0) 2px;
 
   }
   .show-modalc{
-    font-size:16px;
+    font-size:12px;
     padding: 1rem 3rem;
     border:solid rgb(0, 0, 0) 2px;
 
   }
   .show-modald{
-    font-size:16px;
+    font-size:12px;
     padding: 1rem 3rem;
     border:solid rgb(0, 0, 0) 2px;
 
@@ -926,12 +926,12 @@ input[type=submit]:hover {
   .modalBtnsAll {
     justify-content: space-evenly;
     position:absolute;
-    margin-left:auto; 
+    margin-left:40%; 
     margin-right:auto;
-    margin-top:200px;
+    /* margin-top:200px; */
     max-width:100%;
     padding:30px;
-    display: none;
+    /* display: none; */
 
   }
   .profilephoto img{
