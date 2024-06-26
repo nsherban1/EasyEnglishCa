@@ -868,7 +868,7 @@ input[type=submit]:hover {
   }
   .show-modala{
     font-size:12px;
-    padding: 1rem 3rem;
+    padding: 1rem 2.8rem;
     border:solid rgb(255, 255, 255) 2px;
     border-radius: 0;
 
@@ -892,7 +892,7 @@ input[type=submit]:hover {
   }
   .show-modald{
     font-size:12px;
-    padding: 1rem 3rem;
+    padding: 1rem 2.6rem;
     border:solid rgb(255, 255, 255) 2px;
     border-radius: 0;
 
