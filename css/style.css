@@ -801,20 +801,20 @@ input[type=submit]:hover {
     padding:0;
   }
   .modal{
-    margin-top:100%;
+    margin-top:130%;
     width:110%;
     margin-left:-18%;
     padding:4rem;
   }
   .modala{
-    margin-top:100%;
+    margin-top:130%;
     width:110%;
     margin-left:-18%;
     padding:4rem;
   }
   .modalb{
-    margin-top:100%;
-    width:110%;
+    margin-top:110%;
+    width:120%;
     margin-left:-18%;
     padding:4rem;
   }
