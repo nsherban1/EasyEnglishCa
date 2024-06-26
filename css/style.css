@@ -764,22 +764,31 @@ input[type=submit]:hover {
   .modal{
     left:50%;
     top:50%;
+    width:80%;
   }
   .modala{
     left:50%;
     top:50%;
+    width:80%;
+
   }
   .modalb{
     left:50%;
     top:50%;
+    width:80%;
+
   }
   .modalc{
     left:50%;
     top:50%;
+    width:80%;
+
   }
   .modald{
     left:50%;
     top:50%;
+    width:80%;
+
 
   }
   .price{
