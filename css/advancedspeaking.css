@@ -1,9 +1,121 @@
-body{
-    background-color: bisque;
+body {
+    background: linear-gradient(to right, rgb(255, 0, 191), rgb(25, 0, 53));
 }
-
 
 h1{
     color: aqua;
 
 }
+
+.backgroundpic {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .backgroundpic img {
+    /* margin-left: 2%; */
+    display: block;
+    width: 211vh;
+    height: 97vh;
+  }
+  .modal {
+    position: absolute;
+    margin-top: -41%;
+    left: 3%;
+    /* transform: translate(-50%, -50%); */
+    width: 20%;
+    height:44%;
+  
+    background-color: rgb(236, 236, 236,0.3);
+    padding: 8rem;
+    border-radius: 75px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  
+  }
+  .overlaytext {
+    position: absolute;
+    top: 18%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    text-align: center;
+    z-index: 2;
+  }
+  .bodytext {
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+    z-index: 2;
+
+  }
+
+  .goback{
+    position: absolute;
+    top: 5%; 
+    left: 10%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+
+  }
+  @media screen and (max-width: 700px) {
+    .backgroundpic img {
+        /* margin-left: 2%; */
+        display: block;
+        width: 70vh;
+        height: 98vh;
+      }
+      .modal {
+        position: absolute;
+        margin-top: -125%;
+        left: 3%;
+        /* transform: translate(-50%, -50%); */
+        width: 20%;
+        height:44%;
+      
+        background-color: rgb(236, 236, 236,0.3);
+        padding: 8rem;
+        border-radius: 75px;
+        box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+        z-index: 10;
+      
+      }
+      .overlaytext {
+        position: absolute;
+        top: 18%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        /* background-color: #000000;  */
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 20px; 
+        text-align: center;
+        z-index: 2;
+      }
+      .bodytext {
+        position: absolute;
+        top: 35%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        /* background-color: #000000;  */
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 20px; 
+        text-align: center;
+        z-index: 2;
+    
+      }
+  }    
