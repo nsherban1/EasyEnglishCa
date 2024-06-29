@@ -41,8 +41,8 @@ h1{
     transform: translate(-50%, -50%); 
     /* background-color: #000000;  */
     color: black; 
-    padding: 10px 20px; 
-    font-size: 16px; 
+    /* padding: 10px 20px;  */
+    /* font-size: 16px;  */
     text-align: center;
     z-index: 2;
   }
@@ -53,8 +53,8 @@ h1{
     transform: translate(-50%, -50%); 
     /* background-color: #000000;  */
     color: black; 
-    padding: 10px 20px; 
-    font-size: 20px; 
+    /* padding: 10px 20px;  */
+    /* font-size: 20px;  */
     text-align: center;
     z-index: 2;
 
@@ -80,13 +80,14 @@ h1{
         height: 100vh;
         margin-left: -130%;
       }
-      .modal {
+    
+    .modal {
         position: absolute;
-        margin-top: -65%;
+        margin-top: -120%;
         left: 3%;
         /* transform: translate(-50%, -50%); */
-        width: 20%;
-        height:44%;
+        width: 50%;
+        height:54%;
       
         background-color: rgb(236, 236, 236,0.3);
         padding: 8rem;
@@ -95,7 +96,7 @@ h1{
         z-index: 10;
       
       }
-      .overlaytext {
+    .overlaytext {
         position: absolute;
         top: 18%; 
         left: 50%; 
@@ -103,11 +104,11 @@ h1{
         /* background-color: #000000;  */
         color: #fff; 
         padding: 10px 20px; 
-        font-size: 20px; 
+        /* font-size: 20px;  */
         text-align: center;
         z-index: 2;
       }
-      .bodytext {
+    .bodytext {
         position: absolute;
         top: 35%; 
         left: 50%; 
@@ -115,7 +116,7 @@ h1{
         /* background-color: #000000;  */
         color: #fff; 
         padding: 10px 20px; 
-        font-size: 20px; 
+        /* font-size: 20px;  */
         text-align: center;
         z-index: 2;
     
