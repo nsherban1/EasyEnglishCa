@@ -1,9 +1,9 @@
-body {
+/* body {
     background: linear-gradient(to right, rgb(255, 0, 191), rgb(25, 0, 53));
-}
+} */
 
 h1{
-    color: aqua;
+    color: black;
 
 }
 
@@ -15,12 +15,13 @@ h1{
   .backgroundpic img {
     /* margin-left: 2%; */
     display: block;
-    width: 211vh;
+    width: 100%;
     height: 97vh;
+    margin-left:45%;
   }
   .modal {
     position: absolute;
-    margin-top: -41%;
+    margin-top: -60%;
     left: 3%;
     /* transform: translate(-50%, -50%); */
     width: 20%;
@@ -29,7 +30,7 @@ h1{
     background-color: rgb(236, 236, 236,0.3);
     padding: 8rem;
     border-radius: 75px;
-    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.9);
     z-index: 10;
   
   }
@@ -39,19 +40,19 @@ h1{
     left: 50%; 
     transform: translate(-50%, -50%); 
     /* background-color: #000000;  */
-    color: #fff; 
+    color: black; 
     padding: 10px 20px; 
-    font-size: 18px; 
+    font-size: 16px; 
     text-align: center;
     z-index: 2;
   }
   .bodytext {
     position: absolute;
-    top: 35%; 
+    top: 45%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     /* background-color: #000000;  */
-    color: #fff; 
+    color: black; 
     padding: 10px 20px; 
     font-size: 20px; 
     text-align: center;
@@ -65,7 +66,7 @@ h1{
     left: 10%; 
     transform: translate(-50%, -50%); 
     /* background-color: #000000;  */
-    color: #fff; 
+    color: black; 
     padding: 10px 20px; 
     font-size: 20px; 
     text-align: center;
@@ -75,12 +76,13 @@ h1{
     .backgroundpic img {
         /* margin-left: 2%; */
         display: block;
-        width: 70vh;
-        height: 98vh;
+        /* width: 70vh; */
+        height: 100vh;
+        margin-left: -130%;
       }
       .modal {
         position: absolute;
-        margin-top: -125%;
+        margin-top: -65%;
         left: 3%;
         /* transform: translate(-50%, -50%); */
         width: 20%;
