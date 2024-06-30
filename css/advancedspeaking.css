@@ -48,7 +48,7 @@ h1{
   }
   .bodytext {
     position: absolute;
-    top: 45%; 
+    top: 53%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     /* background-color: #000000;  */
@@ -83,11 +83,11 @@ h1{
     
     .modal {
         position: absolute;
-        margin-top: -120%;
+        margin-top: -170%;
         left: 3%;
         /* transform: translate(-50%, -50%); */
-        width: 50%;
-        height:54%;
+        /* width: 170%; */
+        height:40%;
       
         background-color: rgb(236, 236, 236,0.3);
         padding: 8rem;
@@ -98,11 +98,11 @@ h1{
       }
     .overlaytext {
         position: absolute;
-        top: 18%; 
+        top: 12%; 
         left: 50%; 
         transform: translate(-50%, -50%); 
         /* background-color: #000000;  */
-        color: #fff; 
+        color: #000000; 
         padding: 10px 20px; 
         /* font-size: 20px;  */
         text-align: center;
@@ -110,12 +110,12 @@ h1{
       }
     .bodytext {
         position: absolute;
-        top: 35%; 
+        /* top: 38%;  */
         left: 50%; 
         transform: translate(-50%, -50%); 
         /* background-color: #000000;  */
-        color: #fff; 
-        padding: 10px 20px; 
+        color: black; 
+        /* padding: 10px 20px;  */
         /* font-size: 20px;  */
         text-align: center;
         z-index: 2;
