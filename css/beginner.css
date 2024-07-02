@@ -126,7 +126,7 @@ h1{
     
     .modal {
         position: absolute;
-        margin-top: -170%;
+        margin-top: -180%;
         transform: translate(-50%, -50%);
         /* width: 170%; */
         left:61%;

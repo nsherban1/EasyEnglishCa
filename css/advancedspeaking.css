@@ -68,7 +68,7 @@ h1{
     /* background-color: #000000;  */
     color: black; 
     padding: 10px 20px; 
-    font-size: 20px; 
+    font-size: 16px; 
     text-align: center;
 
   }
@@ -120,5 +120,8 @@ h1{
         text-align: center;
         z-index: 2;
     
+      }
+      .goback{
+        left:10%;
       }
   }    
