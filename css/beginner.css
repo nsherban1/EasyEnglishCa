@@ -7,6 +7,9 @@ h1{
     font-size:x-large
 
 }
+h3{
+    color:#000000;
+}
 
 .backgroundpic {
     position: relative;
@@ -120,13 +123,13 @@ h1{
         /* margin-left: 2%; */
         display: block;
         /* width: 70vh; */
-        height: 100vh;
+        height: 150vh;
         margin-left: 0%;
       }
     
     .modal {
         position: absolute;
-        margin-top: -127%;
+        margin-top: -190%;
         transform: translate(-50%, -50%);
         /* width: 170%; */
         left:61%;
@@ -168,7 +171,7 @@ h1{
       }
       .modal1 {
         position: absolute;
-        margin-top: -50%;
+        margin-top: -65%;
         transform: translate(-50%, -50%);
         left:61%;
         height:40%;
