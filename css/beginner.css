@@ -7,9 +7,6 @@ h1{
     font-size:x-large
 
 }
-h3{
-    color:#000000;
-}
 
 .backgroundpic {
     position: relative;
@@ -108,12 +105,12 @@ h3{
   .goback{
     position: absolute;
     top: 5%; 
-    left: 10%; 
+    left: 5%; 
     transform: translate(-50%, -50%); 
     /* background-color: #000000;  */
     color: black; 
     padding: 10px 20px; 
-    font-size: 20px; 
+    font-size: 16px; 
     text-align: center;
     z-index: 10;
 
