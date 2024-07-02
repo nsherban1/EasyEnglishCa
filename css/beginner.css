@@ -120,13 +120,13 @@ h1{
         /* margin-left: 2%; */
         display: block;
         /* width: 70vh; */
-        height: 150vh;
+        height: 160vh;
         margin-left: 0%;
       }
     
     .modal {
         position: absolute;
-        margin-top: -180%;
+        margin-top: -170%;
         transform: translate(-50%, -50%);
         /* width: 170%; */
         left:61%;
@@ -135,7 +135,7 @@ h1{
 
       
         background-color: rgb(236, 236, 236,0.3);
-        padding: 3rem;
+        padding: 1rem;
         border-radius: 75px;
         box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
         z-index: 10;
@@ -168,14 +168,14 @@ h1{
       }
       .modal1 {
         position: absolute;
-        margin-top: -55%;
+        margin-top: -70%;
         transform: translate(-50%, -50%);
         left:61%;
         height:40%;
         width:60%;
       
         background-color: rgb(236, 236, 236,0.3);
-        padding: 3rem;
+        padding: 1rem;
         border-radius: 75px;
         box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
         z-index: 10;
