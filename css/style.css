@@ -493,7 +493,7 @@ input[type=submit]:hover {
 }
 .modalc {
   position: absolute;
-  margin-top: 27%;
+  margin-top: 35%;
   left: 28%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -509,7 +509,7 @@ input[type=submit]:hover {
 }
 .modald {
   position: absolute;
-  margin-top: 28%;
+  margin-top: 35%;
   left: 28%;
   transform: translate(-50%, -50%);
   width: 100%;
