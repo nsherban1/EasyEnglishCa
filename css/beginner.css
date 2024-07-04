@@ -175,7 +175,7 @@ h3{
       }
       .modal1 {
         position: absolute;
-        margin-top: -67%;
+        /* margin-top: -67%; */
         transform: translate(-50%, -50%);
         left:61%;
         height:40%;
