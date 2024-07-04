@@ -136,7 +136,7 @@ h3{
     
     .modal {
         position: absolute;
-        margin-top: -243%;
+        margin-top: -237%;
         transform: translate(-50%, -50%);
         /* width: 170%; */
         left:61%;
@@ -205,7 +205,7 @@ h3{
       }
     .bodytext1 {
         position: absolute;
-        /* top: 56%;  */
+        top: 56%; 
         left: 50%; 
         transform: translate(-50%, -50%); 
         width:80%;
