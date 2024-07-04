@@ -130,13 +130,13 @@ h3{
         /* margin-left: 2%; */
         display: block;
         /* width: 70vh; */
-        height: 170vh;
+        height: 200vh;
         margin-left: 0%;
       }
     
     .modal {
         position: absolute;
-        margin-top: -213%;
+        margin-top: -233%;
         transform: translate(-50%, -50%);
         /* width: 170%; */
         left:61%;
@@ -165,7 +165,7 @@ h3{
       }
     .bodytext {
         position: absolute;
-        /* top: 58%;  */
+        top: 58%; 
         left: 50%; 
         transform: translate(-50%, -50%); 
         width:80%;
@@ -178,7 +178,7 @@ h3{
       }
       .modal1 {
         position: absolute;
-        margin-top: -83%;
+        margin-top: -76%;
         transform: translate(-50%, -50%);
         left:61%;
         height:53%;
@@ -205,7 +205,7 @@ h3{
       }
     .bodytext1 {
         position: absolute;
-        /* top: 51%;  */
+        top: 56%; 
         left: 50%; 
         transform: translate(-50%, -50%); 
         width:80%;
