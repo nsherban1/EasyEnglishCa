@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 213, 79);
+    background-color: rgb(0, 0, 0);
 }
 
 h1{
@@ -16,19 +16,19 @@ h3{
 .backgroundpic {
     position: relative;
     display: inline-block;
-    margin-left:-31%;
+    margin-left:-41%;
   }
   
   .backgroundpic img {
     display: block;
-    width: 147%;
+    width: 133%;
     height: 96vh;
-    margin-left:45%;
+    margin-left:50%;
   }
   .modal {
     position: absolute;
-    margin-top: -60%;
-    left: 68%;
+    margin-top: -55%;
+    left: 94%;
     /* transform: translate(-50%, -50%); */
     width: 20%;
     height:44%;
@@ -64,7 +64,7 @@ h3{
     /* font-size: 20px;  */
     text-align: center;
     z-index: 2;
-    width:90%;
+    width:70%;
 
 
   }
