@@ -130,13 +130,13 @@ h3{
         /* margin-left: 2%; */
         display: block;
         /* width: 70vh; */
-        height: 200vh;
+        height: 100vh;
         margin-left: 0%;
       }
     
     .modal {
         position: absolute;
-        margin-top: -237%;
+        margin-top: -100%;
         transform: translate(-50%, -50%);
         /* width: 170%; */
         left:61%;
