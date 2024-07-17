@@ -316,7 +316,7 @@ ul{
 
 .caption{
   display:flex;
-  margin-left:49%; 
+  margin-left:50%; 
   top:35%;
   margin-right:auto;
   background-color: rgb(255,255,255,0.1);
@@ -343,7 +343,7 @@ ul{
 } 
 .caption3{
   display:flex;
-  margin-left:33%; 
+  margin-left:36%; 
   top:53%;
   margin-right:auto;
   background-color: rgb(255,255,255,0.1);
