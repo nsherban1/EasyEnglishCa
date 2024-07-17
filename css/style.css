@@ -317,7 +317,7 @@ ul{
 .caption{
   display:flex;
   margin-left:49%; 
-  top:37%;
+  top:35%;
   margin-right:auto;
   background-color: rgb(255,255,255,0.1);
   padding:65px;
@@ -329,7 +329,7 @@ ul{
 }
 .caption2{
   display:flex;
-  margin-left:62%; 
+  margin-left:64%; 
   top:53%;
   margin-right:auto;
   background-color: rgb(255,255,255,0.1);
@@ -343,7 +343,7 @@ ul{
 } 
 .caption3{
   display:flex;
-  margin-left:35%; 
+  margin-left:33%; 
   top:53%;
   margin-right:auto;
   background-color: rgb(255,255,255,0.1);
