@@ -452,10 +452,10 @@ input[type=submit]:hover {
 
 .modal {
   position: absolute;
-  margin-top: 37%;
+  margin-top: 47%;
   left: 28%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 130%;
 
   background-color: white;
   padding: 8rem;
@@ -466,10 +466,10 @@ input[type=submit]:hover {
 }
 .modala {
   position: absolute;
-  margin-top: 37%;
+  margin-top: 47%;
   left: 28%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 130%;
 
   background-color: white;
   padding: 6rem;
@@ -480,7 +480,7 @@ input[type=submit]:hover {
 }
 .modalb {
   position: absolute;
-  margin-top: 36%;
+  margin-top: 46%;
   left: 28%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -565,8 +565,8 @@ input[type=submit]:hover {
 .overlay {
   position: absolute;
   top: -16px;
-  left: -80%;
-  width: 217%;
+  left: -102%;
+  width: 276%;
   height: 99vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -576,8 +576,8 @@ input[type=submit]:hover {
 .overlaya {
   position: absolute;
   top: -16px;
-  left: -80%;
-  width: 217%;
+  left: -102%;
+  width: 276%;
   height: 99vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -589,8 +589,8 @@ input[type=submit]:hover {
 .overlayb {
   position: absolute;
   top: -16px;
-  left: -80%;
-  width: 217%;
+  left: -102%;
+  width: 276%;
   height: 99vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
@@ -601,8 +601,8 @@ input[type=submit]:hover {
 .overlayc {
   position: absolute;
   top: -16px;
-  left: -80%;
-  width: 217%;
+  left: -102%;
+  width: 276%;
   height: 99vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);

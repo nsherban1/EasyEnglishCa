@@ -261,30 +261,30 @@ document.addEventListener("keydown", function (e) {
     closeModalc();
   }
 });
-// For modal button #5
-const openModald = function () {
-  console.log("Button clicked");
-  modald.classList.remove("hidden");
-  overlayd.classList.remove("hidden");
-};
+// // For modal button #5
+// const openModald = function () {
+//   console.log("Button clicked");
+//   modald.classList.remove("hidden");
+//   overlayd.classList.remove("hidden");
+// };
 
-const closeModald = function () {
-  modald.classList.add("hidden");
-  overlayd.classList.add("hidden");
-};
+// const closeModald = function () {
+//   modald.classList.add("hidden");
+//   overlayd.classList.add("hidden");
+// };
 
-btnsOpenModald.addEventListener("click", openModald);
+// btnsOpenModald.addEventListener("click", openModald);
 
-btnCloseModald.addEventListener("click", closeModald);
-overlayd.addEventListener("click", closeModald);
+// btnCloseModald.addEventListener("click", closeModald);
+// overlayd.addEventListener("click", closeModald);
 
-document.addEventListener("keydown", function (e) {
-  console.log(e.key);
+// document.addEventListener("keydown", function (e) {
+//   console.log(e.key);
 
-  if (e.key === "Escape" && !modald.classList.contains("hidden")) {
-    closeModald();
-  }
-});
+//   if (e.key === "Escape" && !modald.classList.contains("hidden")) {
+//     closeModald();
+//   }
+// });
 
 // Menu fade animation
 const handleHover = function (e) {
