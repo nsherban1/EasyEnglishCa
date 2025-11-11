@@ -1,0 +1,222 @@
+body {
+    background-color: rgb(243, 213, 79);
+}
+
+h1{
+    color: black;
+    font-size:x-large
+
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.backgroundpic {
+    position: relative;
+    display: inline-block;
+    margin-left:-31%;
+  }
+  
+  .backgroundpic img {
+    display: block;
+    width: 147%;
+    height: 96vh;
+    margin-left:45%;
+  }
+  .modal {
+    position: absolute;
+    margin-top: -60%;
+    left: 68%;
+    /* transform: translate(-50%, -50%); */
+    width: 20%;
+    height:44%;
+  
+    background-color: rgb(236, 236, 236,0.3);
+    padding: 8rem;
+    border-radius: 75px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.9);
+    z-index: 10;
+  
+  }
+
+  .overlaytext {
+    position: absolute;
+    top: 18%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: black; 
+    /* padding: 10px 20px;  */
+    /* font-size: 16px;  */
+    text-align: center;
+    z-index: 2;
+  }
+  .bodytext {
+    position: absolute;
+    top: 53%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: black; 
+    /* padding: 10px 20px;  */
+    /* font-size: 20px;  */
+    text-align: center;
+    z-index: 2;
+    width:80%;
+
+
+  }
+  .modal1 {
+    position: absolute;
+    margin-top: -60%;
+    left: 128%;
+    /* transform: translate(-50%, -50%); */
+    width: 20%;
+    height:44%;
+  
+    background-color: rgb(236, 236, 236,0.3);
+    padding: 8rem;
+    border-radius: 75px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.9);
+    z-index: 10;
+  
+  }
+  .overlaytext1 {
+    position: absolute;
+    top: 18%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: black; 
+    /* padding: 10px 20px;  */
+    /* font-size: 16px;  */
+    text-align: center;
+    z-index: 2;
+  }
+  .bodytext1 {
+    position: absolute;
+    top: 53%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: black; 
+    /* padding: 10px 20px;  */
+    /* font-size: 20px;  */
+    text-align: center;
+    z-index: 2;
+    width:80%;
+
+  }
+
+  .goback{
+    position: absolute;
+    top: 5%; 
+    left: 5%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #000000;  */
+    color: black; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    text-align: center;
+    z-index: 10;
+    text-decoration: none;
+
+
+  }
+  @media screen and (max-width: 700px) {
+    .backgroundpic img {
+        /* margin-left: 2%; */
+        display: block;
+        /* width: 70vh; */
+        height: 200vh;
+        margin-left: 0%;
+      }
+    
+    .modal {
+        position: absolute;
+        margin-top: -237%;
+        transform: translate(-50%, -50%);
+        /* width: 170%; */
+        left:61%;
+        /* height:40%; */
+        width:60%;
+
+      
+        background-color: rgb(236, 236, 236,0.3);
+        padding: 1rem;
+        border-radius: 75px;
+        box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+        z-index: 10;
+      
+      }
+    .overlaytext {
+        position: absolute;
+        top: 12%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        /* background-color: #000000;  */
+        color: #000000; 
+        padding: 10px 20px; 
+        /* font-size: 20px;  */
+        text-align: center;
+        z-index: 2;
+      }
+    .bodytext {
+        position: absolute;
+        /* top: 58%;  */
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        width:80%;
+        color: black; 
+        /* padding: 10px 20px;  */
+        /* font-size: 20px;  */
+        text-align: center;
+        z-index: 2;
+    
+      }
+      .modal1 {
+        position: absolute;
+        margin-top: -86%;
+        transform: translate(-50%, -50%);
+        left:61%;
+        /* height:53%; */
+        width:60%;
+      
+        background-color: rgb(236, 236, 236,0.3);
+        padding: 1rem;
+        border-radius: 75px;
+        box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+        z-index: 10;
+      
+      }
+    .overlaytext1 {
+        position: absolute;
+        top: 12%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        /* background-color: #000000;  */
+        color: #000000; 
+        padding: 10px 20px; 
+        /* font-size: 20px;  */
+        text-align: center;
+        z-index: 2;
+      }
+    .bodytext1 {
+        position: absolute;
+        top: 56%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        width:80%;
+        color: black; 
+        /* padding: 10px 20px;  */
+        /* font-size: 20px;  */
+        text-align: center;
+        z-index: 2;
+    
+      }
+      .goback{
+        left:10%;
+      }
+  }    
