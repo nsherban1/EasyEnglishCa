@@ -1,330 +1,1590 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Easy English</title>
-  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
-  <meta name="author" content="Vincent Garreau" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://kit.fontawesome.com/3d43ba7aef.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" media="screen" href="css/style.css">
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Easy English Canada | Online English Classes</title>
+
+  <meta
+    name="description"
+    content="Easy English Canada offers structured online English programs for children, teenagers and adults, including Cambridge English and IELTS preparation."
+  >
+
+  <meta name="author" content="Easy English Canada">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Collegiate+One&family=Catamaran:wght@100&family=Dosis&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Collegiate+One&family=Catamaran:wght@100&family=Dosis&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap"
+    rel="stylesheet"
+  >
 
+  <!-- Font Awesome -->
+  <script
+    src="https://kit.fontawesome.com/3d43ba7aef.js"
+    crossorigin="anonymous"
+  ></script>
 
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<!-- count particles -->
-<!-- <div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div> -->
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
 
-<!-- particles.js container -->
-<div id="particles-js">
+  <header class="site-header">
 
+    <div class="nav-container">
 
-      <!-- The BUTTONS-->
-    <div class="modalBtnsAll">
-      <button class="nav__link show-modal">About</button>
-      <button class="nav__link show-modala">Courses</button>       
-      <button class="nav__link show-modalc">Prices</button>
-      <button class="nav__link show-modalb">Demos</button>
-      <!-- <button class="nav__link show-modald">Contact</button> -->
+      <a href="#home" class="logo">
+        <img src="logo1.png" alt="Easy English Canada logo">
+      </a>
 
-      <!-- BUTTON 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-        
-          <div class="modal hidden">
-            <div class="container">
-              <button class="close-modal">&times;</button>
-              <br>
-              <h2>About Us</h2>
-              <br>
-              <p><h3>We are a Canada based online educational platform created for students from all over the world to learn English with personalized courses and lessons. Easy English Canada was established in 2024 with hopes of bringing convenience to our students and expanding language learning access worldwide. People are increasingly busy in today's competitive world so we hope to simplify language learning without taking shortcuts on quality. We offer lessons for ages as young as eight years old up to adults at all levels ranging from beginner (A1) to advanced (C2). Our team are all native speaking, qualified ESL teachers with at least 2 or more years of teaching experience with foreign students. Classes can vary in size from one to six students. One on one lessons are available upon request but for most levels it's recommended to study with others to optimize interactions in speaking activities.     
-              <!-- <div class="box">
-              </div>
-              <div class="box1">
-              </div>
-              <div class="box2">
-              </div>
-              <div class="box3">
-              </div>
-              <div class="box4">
-              </div>
-              <div class="box5">
-              </div> -->
-              </h3></p>
+      <nav class="main-nav">
 
-          </div>
-        </div>
-      <div class="overlay hidden"></div>
-      <!-- BUTTON 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-        <div class="modala hidden">
-          
+        <a href="#programs">Programs</a>
+        <a href="#pathway">Learning Pathway</a>
+        <a href="#approach">Our Approach</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
 
-            <button class="close-modala">&times;</button>
+        <a href="#contact" class="nav-cta">
+          Free Assessment
+        </a>
 
-            <div class="container">
-              <li class="nav-item dropdown1">
-              <a class="nav-link dropdown1-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown1"
-                aria-expanded="false" style="font-family: 'Dosis'"> <h2>Courses</h2>
-                <br>
-                <h3>- Our courses are categorized into 4 levels: beginner, intermediate, IELTS prep, and advanced conversational. Lesson planning can be flexible and customized to suit the learner's needs. We use well-recognized curriculums as well as the latest teaching methodology to give our students the easiest and most enjoyable language learning experience. All levels will include periodic assessments and will give learners the chance to receive personalized feedback. Contact us to learn more about our curriculums and learning paths.</h3>
-                <br>
-              </a>
-              <br>
-                  <div class="listitems1">
-                      <ul class="dropdown1-menu" aria-labelledby="navbarDropdown">
-                          <li><a href = "beginner.html" class="dropdown-item" style="font-family: 'Dosis'">Beginner Level</a></li>
-                          <li><a href = "intermediate.html" class="dropdown-item" style="font-family: 'Dosis'">Intermediate Level</a></li>
-                          <li><a href = "ieltsprep.html" class="dropdown-item"  style="font-family: 'Dosis'">IELTS Preparation</a></li>
-                          <li><a href = "advancedspeaking.html" class="dropdown-item"  style="font-family: 'Dosis'">Advanced Conversational Classes</a></li>
-                    
-                      </ul>
-                  </div>
-                </li>  
-              </div>
+      </nav>
 
-        </div>
-      <div class="overlaya hidden"></div>
-      <!-- BUTTON 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-      <div class="modalb hidden">
-        <button class="close-modalb">&times;</button>
-
-          <!--
-
-    =======================================================================
-
-    This is a working contact form. To receive email, 
-    Replace YOUR_ACCESS_KEY_HERE with your actual Access Key.
-
-    Create Access Key here 👉 https://web3forms.com/
-
-    =======================================================================
- -->
-
-<div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
-  <div class="container mx-auto">
-    <div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
-      <div class="text-center">
-        <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
-          Contact Us
-        </h1>
-        <p class="text-gray-400 dark:text-gray-400">
-          Fill out the form below to begin scheduling your free demo.
-        </p>
-      </div>
-      <br>
-      <div class="m-7">
-        <form action="https://api.web3forms.com/submit" method="POST" id="form">
-          <input type="hidden" name="access_key" value="b06733b2-8ee7-460f-8573-ff7caec12177">
-          <input type="hidden" name="subject" value="New Submission from Web3Forms" />
-          <input type="checkbox" name="botcheck" id="" style="display: none;" />
-
-          <div class="flex mb-6 space-x-4">
-            <div class="w-full md:w-1/2">
-              <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Name</label>
-              <input type="text" name="name" id="name" placeholder="John Jones" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
-            </div>
-            <div class="w-full md:w-1/2">
-              <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Child's Name (If applicable)</label>
-              <input type="text" name="last_name" id="lname" placeholder="Sarah" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
-            </div>
-          </div>
-
-          <div class="flex mb-6 space-x-4">
-            <div class="w-full md:w-1/2">
-              <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-              <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
-            </div>
-
-            <div class="w-full md:w-1/2">
-              <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
-            </div>
-          </div>
-          <div class="mb-6">
-            <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
-
-            <textarea rows="4" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
-          </div>
-          <div class="mb-6">
-            <button type="submit" class="demobutton" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
-              Send Message
-            </button>
-          </div>
-          <p class="text-base text-center text-gray-400" id="result"></p>
-        </form>
-      </div>
     </div>
-  </div>
-</div>
-          
-      </div>
-      <div class="overlayb hidden"></div>
-      <!-- BUTTON 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-      <div class="modalc hidden">
-        <button class="close-modalc">&times;</button>
-        <!-- <h1>Pricing</h1> -->
-        <p>
 
-            <div class="container">
-              <h2>Prices:</h2>
-              <br>
-              <h3><i style="font-size:24px" class="fa">&#xf155;</i> Standard Price of 25 USD/ 50 minute lesson for all ages and levels</h3>
-              <br>
-              <h3><i style="font-size:24px" class="fa">&#xf155;</i> Discounted rates apply for long term students (3, 6, 12 month commitments)</h3>
-              <br>
-              <h3><i style='font-size:24px' class='fas'>&#xf1ae;</i><i style='font-size:24px' class='fas'>&#xf1ae;</i>
-                Refer a friend to get a discount!</h3>
-              <br>
-              <h3><i style='font-size:24px' class='fas'>&#xf109;</i>
-                Why wait? Sign up for a free demo class!</h3>
-              <br>
-              <h3><i style="font-size:24px" class="fa">&#xf1ed;</i>
+  </header>
 
-                 PayPal and Wise are accepted.</h3>
+
+  <main id="home">
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            ONLINE ENGLISH SCHOOL
+          </span>
+
+          <h1>
+            Build Your English.
+            <span>Build Your Confidence.</span>
+          </h1>
+
+          <p class="hero-text">
+            Structured online English programs for children, teenagers
+            and adults — from beginner English through Cambridge
+            qualifications and IELTS preparation.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#contact" class="btn btn-primary">
+              Take a Free Assessment
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#programs" class="btn btn-secondary">
+              Explore Programs
+            </a>
+
+          </div>
+
+          <div class="hero-trust">
+
+            <div class="trust-item">
+              <i class="fa-solid fa-circle-check"></i>
+              9+ Years ESL Experience
             </div>
-        </p>
+
+            <div class="trust-item">
+              <i class="fa-solid fa-circle-check"></i>
+              Small Group Classes
+            </div>
+
+            <div class="trust-item">
+              <i class="fa-solid fa-circle-check"></i>
+              Cambridge & IELTS
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+          <div class="hero-image-card">
+
+            <img
+              src="girllearning2.png"
+              alt="Student learning English online"
+            >
+
+            <div class="floating-card level-card">
+
+              <div class="floating-icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+
+              <div>
+                <strong>Track Your Progress</strong>
+                <span>Learn • Practice • Progress</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
-      <div class="overlayc hidden"></div>
-    
-          <!-- BUTTON 5 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-          <div class="modald hidden">
-            <button class="close-modald">&times;</button>
-            <!-- <h1>Inquiries</h1> -->
+
+    </section>
+
+
+    <!-- =========================
+         STATS / TRUST
+    ========================== -->
+
+    <section class="trust-section">
+
+      <div class="container">
+
+        <div class="trust-grid">
+
+          <div class="trust-box">
+
+            <div class="trust-number">9+</div>
+
+            <div>
+              <strong>Years</strong>
+              <span>of ESL teaching experience</span>
+            </div>
+
+          </div>
+
+          <div class="trust-box">
+
+            <div class="trust-number">A1–C2</div>
+
+            <div>
+              <strong>All Levels</strong>
+              <span>from beginner to advanced</span>
+            </div>
+
+          </div>
+
+          <div class="trust-box">
+
+            <div class="trust-number">1–4</div>
+
+            <div>
+              <strong>Students</strong>
+              <span>in our small group classes</span>
+            </div>
+
+          </div>
+
+          <div class="trust-box">
+
+            <div class="trust-number">100%</div>
+
+            <div>
+              <strong>Online</strong>
+              <span>learn from anywhere</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         WHY EASY ENGLISH
+    ========================== -->
+
+    <section class="section why-section">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <span class="eyebrow">WHY EASY ENGLISH?</span>
+
+          <h2>
+            More than just English lessons.
+          </h2>
+
+          <p>
+            We provide students with a structured learning pathway,
+            experienced teachers and regular opportunities to practice
+            and measure their progress.
+          </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+          <article class="feature-card">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-route"></i>
+            </div>
+
+            <h3>Structured Learning</h3>
+
             <p>
-              <div class="container">
-                <h2>Contact Details:</h2>
-                <br>
-                <h3><i style="font-size:24px" class="fa">&#xf095;</i>
-                  Canada: +1-368-886-9905</h3>
-                <br>
-                <h3><i style="font-size:24px" class="fa">&#xf0e0;</i>
-                  teachersherban@gmail.com</h3>
+              Students follow a clear progression based on their current
+              English level, goals and long-term learning objectives.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+
+            <h3>Real Communication</h3>
+
+            <p>
+              Students don't just study grammar. Our lessons emphasize
+              speaking, listening and using English confidently.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+            <h3>Track Your Progress</h3>
+
+            <p>
+              Regular assessments and teacher feedback help students
+              understand their strengths and what they should improve.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-user-group"></i>
+            </div>
+
+            <h3>Small Classes</h3>
+
+            <p>
+              Small groups give students more opportunities to speak,
+              interact and receive individual attention from their teacher.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         LEARNING PATHWAY
+    ========================== -->
+
+    <section class="section pathway-section" id="pathway">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <span class="eyebrow">YOUR ENGLISH JOURNEY</span>
+
+          <h2>A clear path from beginner to advanced.</h2>
+
+          <p>
+            Students begin at the level that matches their current ability
+            and progress toward their personal English goals.
+          </p>
+
+        </div>
+
+
+        <div class="pathway">
+
+          <div class="pathway-stage young">
+
+            <div class="stage-number">01</div>
+
+            <div class="stage-content">
+
+              <span>YOUNG LEARNERS</span>
+
+              <h3>Cambridge Young Learners</h3>
+
+              <div class="level-pills">
+
+                <span>Starters</span>
+                <span>Movers</span>
+                <span>Flyers</span>
 
               </div>
 
+            </div>
+
+          </div>
+
+
+          <div class="pathway-arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+
+
+          <div class="pathway-stage cambridge">
+
+            <div class="stage-number">02</div>
+
+            <div class="stage-content">
+
+              <span>CAMBRIDGE ENGLISH</span>
+
+              <h3>International Qualifications</h3>
+
+              <div class="level-pills">
+
+                <span>A2 Key</span>
+                <span>B1 Preliminary</span>
+                <span>B2 First</span>
+                <span>C1 Advanced</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="pathway-arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+
+
+          <div class="pathway-stage ielts">
+
+            <div class="stage-number">03</div>
+
+            <div class="stage-content">
+
+              <span>IELTS</span>
+
+              <h3>Prepare for Your Next Goal</h3>
+
+              <div class="level-pills">
+
+                <span>Foundation</span>
+                <span>Preparation</span>
+                <span>Intensive</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="pathway-note">
+
+          <i class="fa-solid fa-circle-info"></i>
+
+          <p>
+            Not sure which level is right for you?
+            <a href="#contact">Take our free level assessment.</a>
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROGRAMS
+    ========================== -->
+
+    <section class="section programs-section" id="programs">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">OUR PROGRAMS</span>
+
+          <h2>Choose the right program for your goals.</h2>
+
+          <p>
+            Our courses combine structured learning with practical
+            communication and regular progress checks.
+          </p>
+
+        </div>
+
+
+        <div class="program-grid">
+
+
+          <article class="program-card">
+
+            <div class="program-image">
+              <img
+                src="girllearning2.png"
+                alt="Young learner studying English"
+              >
+            </div>
+
+            <div class="program-content">
+
+              <span class="program-label">AGES 8+</span>
+
+              <h3>Young Learners</h3>
+
+              <p>
+                Build a strong foundation in English while developing
+                confidence in speaking, listening, reading and writing.
+              </p>
+
+              <div class="program-levels">
+                Starters • Movers • Flyers
+              </div>
+
+              <a href="#contact" class="text-link">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="program-card">
+
+            <div class="program-image">
+              <img
+                src="boylearning2.png"
+                alt="Student studying English online"
+              >
+            </div>
+
+            <div class="program-content">
+
+              <span class="program-label">A1–B2</span>
+
+              <h3>General English</h3>
+
+              <p>
+                Develop practical English for everyday communication,
+                school, work, travel and personal goals.
+              </p>
+
+              <div class="program-levels">
+                Beginner • Elementary • Intermediate • Upper-Intermediate
+              </div>
+
+              <a href="#contact" class="text-link">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="program-card">
+
+            <div class="program-image">
+              <img
+                src="boylearning.png"
+                alt="Student preparing for English exams"
+              >
+            </div>
+
+            <div class="program-content">
+
+              <span class="program-label">A2–C1</span>
+
+              <h3>Cambridge Preparation</h3>
+
+              <p>
+                Prepare for Cambridge English qualifications with
+                structured practice across all four language skills.
+              </p>
+
+              <div class="program-levels">
+                Key • Preliminary • First • Advanced
+              </div>
+
+              <a href="#contact" class="text-link">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="program-card">
+
+            <div class="program-image">
+              <img
+                src="girllearning.png"
+                alt="Student preparing for IELTS online"
+              >
+            </div>
+
+            <div class="program-content">
+
+              <span class="program-label">IELTS</span>
+
+              <h3>IELTS Preparation</h3>
+
+              <p>
+                Build the language skills, strategies and confidence
+                needed to achieve your target IELTS score.
+              </p>
+
+              <div class="program-levels">
+                Foundation • Preparation • Intensive
+              </div>
+
+              <a href="#contact" class="text-link">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CURRICULUM
+    ========================== -->
+
+    <section class="section curriculum-section" id="approach">
+
+      <div class="container curriculum-container">
+
+        <div class="curriculum-content">
+
+          <span class="eyebrow">OUR CURRICULUM</span>
+
+          <h2>
+            A balanced approach to learning English.
+          </h2>
+
+          <p>
+            Our curriculum combines internationally recognized English
+            frameworks with carefully selected learning resources and
+            teacher-developed lessons.
+          </p>
+
+          <p>
+            Students develop the language knowledge and practical
+            communication skills they need to use English confidently
+            in real situations.
+          </p>
+
+          <a href="#contact" class="btn btn-primary">
+            Find Your Level
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <i class="fa-solid fa-microphone"></i>
+            <span>Speaking</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-headphones"></i>
+            <span>Listening</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-book-open"></i>
+            <span>Reading</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-pen"></i>
+            <span>Writing</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-language"></i>
+            <span>Vocabulary</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-spell-check"></i>
+            <span>Grammar</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-volume-high"></i>
+            <span>Pronunciation</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-comments"></i>
+            <span>Communication</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         HOW IT WORKS
+    ========================== -->
+
+    <section class="section process-section">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <span class="eyebrow">HOW IT WORKS</span>
+
+          <h2>Simple, structured and personalized.</h2>
+
+        </div>
+
+
+        <div class="process-grid">
+
+          <div class="process-step">
+
+            <div class="process-number">1</div>
+
+            <h3>Assess</h3>
+
+            <p>
+              Discover your current English level and identify your
+              strengths and areas for improvement.
             </p>
+
           </div>
-          <div class="overlayd hidden"></div>
+
+
+          <div class="process-step">
+
+            <div class="process-number">2</div>
+
+            <h3>Choose</h3>
+
+            <p>
+              We recommend a program based on your level, goals and
+              preferred learning format.
+            </p>
+
+          </div>
+
+
+          <div class="process-step">
+
+            <div class="process-number">3</div>
+
+            <h3>Learn</h3>
+
+            <p>
+              Attend structured online classes and practice English
+              with your teacher and classmates.
+            </p>
+
+          </div>
+
+
+          <div class="process-step">
+
+            <div class="process-number">4</div>
+
+            <h3>Progress</h3>
+
+            <p>
+              Regular assessments and feedback help you measure your
+              development and prepare for the next level.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT / TEACHER
+    ========================== -->
+
+    <section class="section about-section" id="about">
+
+      <div class="container about-container">
+
+        <div class="about-image">
+
+          <div class="about-image-main">
+            <img
+              src="boylearning2.png"
+              alt="English teacher working with an online student"
+            >
+          </div>
+
+          <div class="experience-badge">
+
+            <strong>9+</strong>
+            <span>Years ESL Experience</span>
+
+          </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+          <span class="eyebrow">ABOUT EASY ENGLISH</span>
+
+          <h2>
+            Built from years of real classroom experience.
+          </h2>
+
+          <p>
+            Easy English Canada was created by an experienced ESL teacher
+            with more than nine years of teaching experience.
+          </p>
+
+          <p>
+            After four years teaching English in Ho Chi Minh City, Vietnam,
+            and five years teaching students online, our approach has been
+            shaped by working with learners from different ages,
+            backgrounds and proficiency levels.
+          </p>
+
+          <p>
+            We believe effective English education should be structured,
+            practical and enjoyable — while giving students a clear idea
+            of where they are going next.
+          </p>
+
+
+          <div class="about-list">
+
+            <div>
+              <i class="fa-solid fa-check"></i>
+              Experienced ESL instruction
+            </div>
+
+            <div>
+              <i class="fa-solid fa-check"></i>
+              Children, teenagers and adults
+            </div>
+
+            <div>
+              <i class="fa-solid fa-check"></i>
+              General English, Cambridge and IELTS
+            </div>
+
+            <div>
+              <i class="fa-solid fa-check"></i>
+              100% online learning
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SMALL GROUP
+    ========================== -->
+
+    <section class="section group-section">
+
+      <div class="container group-container">
+
+        <div class="group-content">
+
+          <span class="eyebrow">SMALL GROUP LEARNING</span>
+
+          <h2>
+            More opportunities to speak.
+            More value for your money.
+          </h2>
+
+          <p>
+            Our small-group classes are designed to give students
+            meaningful opportunities to communicate while still receiving
+            individual attention from the teacher.
+          </p>
+
+          <div class="group-features">
+
+            <div>
+              <i class="fa-solid fa-users"></i>
+              <span>2–4 students per class</span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-comments"></i>
+              <span>More speaking practice</span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-user-check"></i>
+              <span>Personalized teacher feedback</span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>More affordable than private lessons</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="group-image">
+
+          <img
+            src="girllearning.png"
+            alt="Students learning English online"
+          >
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PRICING
+    ========================== -->
+
+    <section class="section pricing-section" id="pricing">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <span class="eyebrow">PROGRAM OPTIONS</span>
+
+          <h2>Choose the learning experience that fits you.</h2>
+
+          <p>
+            Final pricing can vary by program, level and class schedule.
+            Contact us for current availability.
+          </p>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+          <!-- STANDARD -->
+
+          <article class="price-card">
+
+            <div class="price-header">
+
+              <span class="price-label">GROUP</span>
+
+              <h3>Standard</h3>
+
+              <p>
+                A structured and affordable way to improve your English.
+              </p>
+
+            </div>
+
+            <div class="price-amount">
+              <span class="price-from">FROM</span>
+              <strong>$XX</strong>
+              <span>/ month</span>
+            </div>
+
+            <ul class="price-list">
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                4–6 students
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Structured curriculum
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Regular homework
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Progress assessments
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Teacher feedback
+              </li>
+
+            </ul>
+
+            <a href="#contact" class="btn btn-outline">
+              Ask About This Program
+            </a>
+
+          </article>
+
+
+          <!-- PREMIUM -->
+
+          <article class="price-card featured">
+
+            <div class="popular-badge">
+              MOST POPULAR
+            </div>
+
+            <div class="price-header">
+
+              <span class="price-label">SMALL GROUP</span>
+
+              <h3>Premium</h3>
+
+              <p>
+                More speaking time and more individual attention.
+              </p>
+
+            </div>
+
+            <div class="price-amount">
+              <span class="price-from">FROM</span>
+              <strong>$XX</strong>
+              <span>/ month</span>
+            </div>
+
+            <ul class="price-list">
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                2–4 students
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Everything in Standard
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Increased speaking practice
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Personalized homework
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Individual progress feedback
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Cambridge & IELTS options
+              </li>
+
+            </ul>
+
+            <a href="#contact" class="btn btn-primary">
+              Ask About This Program
+            </a>
+
+          </article>
+
+
+          <!-- PRIVATE -->
+
+          <article class="price-card">
+
+            <div class="price-header">
+
+              <span class="price-label">PRIVATE</span>
+
+              <h3>1-on-1</h3>
+
+              <p>
+                Fully personalized instruction for specific goals.
+              </p>
+
+            </div>
+
+            <div class="price-amount">
+              <span class="price-from">FROM</span>
+              <strong>$XX</strong>
+              <span>/ month</span>
+            </div>
+
+            <ul class="price-list">
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                One-on-one instruction
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Personalized study plan
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Cambridge & IELTS preparation
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Detailed feedback
+              </li>
+
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Flexible learning goals
+              </li>
+
+            </ul>
+
+            <a href="#contact" class="btn btn-outline">
+              Ask About This Program
+            </a>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         TESTIMONIALS
+    ========================== -->
+
+    <section class="section testimonials-section">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <span class="eyebrow">STUDENT EXPERIENCES</span>
+
+          <h2>What our students say.</h2>
+
+          <p>
+            Add your real student and parent testimonials here as
+            your school grows.
+          </p>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial-card">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <p>
+              "Add a genuine student or parent testimonial here.
+              Specific results and experiences are especially valuable."
+            </p>
+
+            <div class="testimonial-author">
+              <strong>Student / Parent</strong>
+              <span>English Program</span>
+            </div>
+
+          </article>
+
+
+          <article class="testimonial-card">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <p>
+              "You can add another testimonial describing the student's
+              progress, confidence or exam preparation experience."
+            </p>
+
+            <div class="testimonial-author">
+              <strong>Student / Parent</strong>
+              <span>Cambridge Program</span>
+            </div>
+
+          </article>
+
+
+          <article class="testimonial-card">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <p>
+              "Once you have several testimonials, use this section to
+              demonstrate real results and build trust with new families."
+            </p>
+
+            <div class="testimonial-author">
+              <strong>Student / Parent</strong>
+              <span>IELTS Program</span>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL CTA / CONTACT
+    ========================== -->
+
+    <section class="section contact-section" id="contact">
+
+      <div class="container contact-container">
+
+        <div class="contact-intro">
+
+          <span class="eyebrow">GET STARTED</span>
+
+          <h2>
+            Not sure where to begin?
+          </h2>
+
+          <p>
+            Tell us about your English goals and we'll help you find
+            the right level and learning program.
+          </p>
+
+
+          <div class="contact-benefits">
+
+            <div>
+              <i class="fa-solid fa-circle-check"></i>
+              Free level assessment
+            </div>
+
+            <div>
+              <i class="fa-solid fa-circle-check"></i>
+              Program recommendation
+            </div>
+
+            <div>
+              <i class="fa-solid fa-circle-check"></i>
+              No obligation
+            </div>
+
+          </div>
+
+
+          <div class="contact-details">
+
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <span>teachersherban@gmail.com</span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <span>+1-368-886-9905</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="contact-form-wrapper">
+
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-form"
+          >
+
+            <!-- Replace with your NEW Web3Forms access key -->
+            <input
+              type="hidden"
+              name="access_key"
+              value="b06733b2-8ee7-460f-8573-ff7caec12177"
+            >
+
+            <input
+              type="hidden"
+              name="subject"
+              value="New Easy English Canada Assessment Request"
+            >
+
+            <input
+              type="hidden"
+              name="from_name"
+              value="Easy English Canada Website"
+            >
+
+            <!-- Honeypot -->
+            <input
+              type="checkbox"
+              name="botcheck"
+              style="display:none"
+            >
+
+            <h3>Request a Free Assessment</h3>
+
+            <p class="form-intro">
+              Fill out the form and we'll get back to you.
+            </p>
+
+
+            <div class="form-row">
+
+              <div class="form-group">
+
+                <label for="name">Your Name</label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                >
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="student-name">Student Name</label>
+
+                <input
+                  type="text"
+                  id="student-name"
+                  name="student_name"
+                  placeholder="Student's name"
+                >
+
+              </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+              <div class="form-group">
+
+                <label for="email">Email</label>
+
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                >
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="phone">Phone / WhatsApp</label>
+
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="+1..."
+                >
+
+              </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label for="level">Student's Current Level</label>
+
+              <select id="level" name="level">
+
+                <option value="">
+                  I'm not sure
+                </option>
+
+                <option value="Beginner">
+                  Beginner
+                </option>
+
+                <option value="A1">
+                  A1
+                </option>
+
+                <option value="A2">
+                  A2
+                </option>
+
+                <option value="B1">
+                  B1
+                </option>
+
+                <option value="B2">
+                  B2
+                </option>
+
+                <option value="C1">
+                  C1
+                </option>
+
+                <option value="C2">
+                  C2
+                </option>
+
+              </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label for="goal">What is your main goal?</label>
+
+              <select id="goal" name="goal">
+
+                <option value="">
+                  Select a goal
+                </option>
+
+                <option value="General English">
+                  General English
+                </option>
+
+                <option value="Cambridge">
+                  Cambridge English
+                </option>
+
+                <option value="IELTS">
+                  IELTS Preparation
+                </option>
+
+                <option value="School">
+                  School Support
+                </option>
+
+                <option value="Conversation">
+                  Conversation
+                </option>
+
+                <option value="Other">
+                  Other
+                </option>
+
+              </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label for="message">Anything else you'd like us to know?</label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us about your goals..."
+              ></textarea>
+
+            </div>
+
+
+            <button type="submit" class="btn btn-primary form-submit">
+
+              Request Free Assessment
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-container">
+
+      <div class="footer-brand">
+
+        <img
+          src="logo1.png"
+          alt="Easy English Canada"
+        >
+
+        <p>
+          Structured online English learning for students around the world.
+        </p>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Programs</h4>
+
+        <a href="#programs">Young Learners</a>
+        <a href="#programs">General English</a>
+        <a href="#programs">Cambridge Preparation</a>
+        <a href="#programs">IELTS Preparation</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Company</h4>
+
+        <a href="#about">About</a>
+        <a href="#approach">Our Curriculum</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Contact</h4>
+
+        <a href="mailto:teachersherban@gmail.com">
+          teachersherban@gmail.com
+        </a>
+
+        <a href="tel:+13688869905">
+          +1-368-886-9905
+        </a>
+
+      </div>
+
     </div>
-                <!-- Navigation Bar for cellphone screen-->
-    <!-- <div class="dropdown">
-        <span>Dropdown Menu</span>
-          <div class="dropdown-content">
-                <button class="nav__link show-modall">About</button>
-                <button class="nav__link show-modalla">Courses</button>       
-                <button class="nav__link show-modallc">Prices</button>
-                <button class="nav__link show-modallb">Demo Lessons</button>
-                <button class="nav__link show-modalld">Contact</button>
-          </div>
-    </div> -->
-
-      <div class="content">
-              <!-- photo -->
-        <div class="sliders">
-          <div class="slide slide--1">
-            <div class="profilephoto">
-              <img src="girllearning2.png" alt="girllearning"/>
-            </div>
-          </div>
-          <div class="slide slide--2">
-            <div class="profilephoto">
-              <img src="boylearning2.png" alt="boylearning"/>
-            </div>
-          </div>
-          <div class="slide slide--3">
-            <div class="profilephoto">
-              <img src="boylearning.png" alt="boylearning"/>
-            </div>
-          </div>
-          <div class="slide slide--4">
-            <div class="profilephoto">
-              <img src="girllearning.png" alt="onlineclass"/>
-            </div>
-          </div>
-          <button class="slider__btn slider__btn--left">&larr;</button>
-          <button class="slider__btn slider__btn--right">&rarr;</button>
-          <div class="dots"></div>
-
-        </div>
-
-            <div class="caption">
-                <h3>Learning English has never been easier!
-                  <br></h3>
-            </div>
-            <div class="caption2">
-              <h3>
-                <i style="font-size:24px" class="fa">&#xf015;</i>
-                Save time and study from home.
-                <br>
-                <i style='font-size:24px' class='fas'>&#xf51c;</i>
-                100% Native English instructors. 
-                <br>
-                <i style='font-size:24px' class='fas'>&#xf501;</i>
-                Worldwide recognized curriculum.                             
-              </h3>
-            </div>
-            <div class="caption3">
-              <h3><img src="icons8-zoom-25.png" alt="zoom"/>
-
-                Easy to use Zoom app.
-                <br>
-                  <i style="font-size:24px" class="fa">&#xf155;</i>
-                  Affordable with discounts available.     
-                <br>
-                <i style="font-size:24px" class="fa">&#xf108;</i>
-                High quality online lessons.
-              </h3>
-            </div>
-
-        </div>
-
-        <div class="logo">
-          <img src="logo1.png" alt="logo" style="width:100%"/>
-        </div>
-</div>
-
-        
-        <!-- <div class="logo1">
-          <img src="logo1.png" alt="logo" style="width:100%"/>
-        </div> -->
 
 
+    <div class="footer-bottom">
 
-    <!-- scripts -->
-    <script src="../particles.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/formsubmit.js"></script>
+      <div class="container">
+
+        <p>
+          © 2026 Easy English Canada. All rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
 
 
-    <!-- stats.js -->
-    <!-- <script src="demo/js/lib/stats.js"></script> -->
-    <script>
-      var count_particles, stats, update;
-      stats = new Stats;
-      stats.setMode(0);
-      stats.domElement.style.position = 'absolute';
-      stats.domElement.style.left = '0px';
-      stats.domElement.style.top = '0px';
-      document.body.appendChild(stats.domElement);
-      count_particles = document.querySelector('.js-count-particles');
-      update = function() {
-        stats.begin();
-        stats.end();
-        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
-      };
-      requestAnimationFrame(update);
-    </script>
-  </div>
 </body>
 </html>
+```
