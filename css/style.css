@@ -2196,3 +2196,78 @@ ul {
   }
 
 }
+
+/* ============================================================
+   PROGRAM PAGE HERO
+   ============================================================ */
+
+.program-page-hero {
+  background:
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(25, 118, 210, 0.10),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #f7fbff 0%,
+      #ffffff 60%
+    );
+
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.program-page-hero-content {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.program-page-hero h1 {
+  font-family: "Nunito", sans-serif;
+  color: var(--navy);
+  font-size: clamp(4rem, 6vw, 6.5rem);
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  margin-bottom: 25px;
+}
+
+.program-page-hero h1 span {
+  display: block;
+  color: var(--blue);
+}
+
+.program-page-hero-content > p {
+  max-width: 680px;
+  margin: 0 auto 32px;
+  color: var(--text-light);
+  font-size: 1.8rem;
+  line-height: 1.75;
+}
+
+.program-page-hero .hero-buttons {
+  justify-content: center;
+}
+
+
+/* ============================================================
+   PROGRAM PAGE MOBILE
+   ============================================================ */
+
+@media (max-width: 760px) {
+
+  .program-page-hero {
+    padding: 70px 0 80px;
+  }
+
+  .program-page-hero h1 {
+    font-size: clamp(3.8rem, 11vw, 5rem);
+  }
+
+  .program-page-hero-content > p {
+    font-size: 1.6rem;
+  }
+
+}
